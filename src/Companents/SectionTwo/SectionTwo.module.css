@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins-Medium";
+}
+.sectionTwo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.containerTwo{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.containerTwo .card{
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    border: 1px solid #E6E6E6;
+    padding: 40px 40px;
+    gap: 10px;
+    transition: .5s;
+}
+
+
+.containerTwo .card h1{
+font-family: 'Poppins-Bold';
+font-size: 28px;
+font-weight: 600;
+}
+.card p{
+font-size: 14px;
+font-weight: 400;
+color: gray;
+font-family: "Poppins-Regular";
+}
